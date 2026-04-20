@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Job</title>
+    <link rel="stylesheet" href="job_form.css">
+     <link rel="stylesheet" href="footer.css">
+     <link rel="stylesheet" href="navbar.css">
+     <script src="ask.js"></script>
+     
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+     <header class="navbar">
+     <h1 class="logo">HotBeans</h1>
+
+  <nav class="menu">
+    <ul>
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="Job.html">Our Job</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="Login.html">Login</a></li>
+    </ul>
+  </nav>
+</header>     
+     <H1 class="logo">Our Job Vacancy </H1><br>
+
+    <form action="index.php" method="post">
+
+        <div>
+        <label for="job">Roles:</label>
+        <select id="job">
+            <option value="Junior Data Analyst" id="Junior">Junior Data Analyst</option>
+            <option value="Fullstack Developer">fullstack Developer</option>
+            <option value="Data Analyst">Data Analyst</option>
+            <option value="Cleaner">Cleaner</option>
+        </select> 
+        </div>  
+        
+        <div>
+        <label for="Gender">Gender:</label>
+
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="Gender">
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="Gender">
+        <label for="Others">Others</label>
+        <input type="radio" id="Others" name="Gender">
+        </div>
+        <br>
+
+        <div>
+        <label for="Fullname name">Fullname:</label>
+        <input type="text" placeholder="Kenny Bob" required>
+        </div>
+        <br>
+
+        <div>
+        <label for="Address">Address:</label>
+        <input type="text" required>
+        </div>
+        <br>
+
+        <div>
+        <label for="date">Date of Birth:</label>
+        <input type="date" required>
+        </div>
+        <br>
+
+        <div>
+        <label for="file">CV:</label>
+        <input type="file" id="file" accept=".pdf,.doc">
+        </div>
+        <br>
+       
+        <div>
+        <br>
+        <input type="reset" value="clear">
+        <input type="submit" value="submit">
+        </div>
+
+
+    </form>
+
+    <section>
+        <footer class="footer"> 
+        <div class="footer-section">
+            <div class="footer-container">
+        <h3><a href="About.html"> ABOUT US </a></h3>
+        We provide quality tech Solutions and services to help business grow online.
+
+        <h3>Quick Links</h3>
+        <div class="footer-section">
+            <ul>
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="Job.html">Our Job</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="Login.html">Login</a></li>
+    </ul>
+        </div>
+        <h3>Contact</h3>
+        <div class="footer-section">
+         <p>Email: <a href="mailto.Hotbeans@UK.CO">Hotbeans@UK.CO</a></p>
+         <p>Phone: +44 123 456 789</p>
+         <p>Location: Aso Rock,London,UK</p>
+
+         </div>
+
+         <div class="footer-section">
+          <a href="="><i class="fab fa-facebook"></i></a>
+          <a href="="><i class="fab fa-instagram"></i></a>
+          <a href="="><i class="fab fa-twitter"></i></a>
+        </div>
+
+
+
+        </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; 2026 Hotbeans company| All Rights Reserved
+        </div>
+    </footer>
+    </section>
+
+</body>
+</html>
